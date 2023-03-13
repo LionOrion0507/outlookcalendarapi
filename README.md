@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## CONFIGURACIONES PARA QUE SIRVA EL MICROSOFT GRAPH TOOLKIT
+
+Para instalar el toolkit, en la terminal, hay que poner `npm install @microsoft/mgt`
+
+Para que el toolkit sirva sin dar errores de compilación, en el archivo `tsconfig.json`, en la sección de "angularCompilerOptions", hay que poner
+`"skipLibCheck": true`
